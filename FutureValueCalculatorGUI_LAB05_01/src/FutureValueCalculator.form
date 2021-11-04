@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Future Value Calculator"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="aomlabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="gmlabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="yslabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="yfolabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="gmkutusu" pref="150" max="32767" attributes="0"/>
+                          <Component id="yskutusu" alignment="0" max="32767" attributes="0"/>
+                          <Component id="yfokutusu" alignment="0" max="32767" attributes="0"/>
+                          <Component id="aomkutusu" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="31" max="32767" attributes="0"/>
+                      <Component id="temizletusu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="hesaplatusu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="cıkıstusu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="aomlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aomkutusu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="yfolabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yfokutusu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="yslabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yskutusu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="gmlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gmkutusu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hesaplatusu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cıkıstusu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="temizletusu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="aomlabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ayl&#x131;k &#xd6;deme Miktar&#x131;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yfolabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Y&#x131;ll&#x131;k Faiz Oran&#x131;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yslabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Y&#x131;l Say&#x131;s&#x131;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gmlabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gelecekteki Miktar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aomkutusu">
+    </Component>
+    <Component class="javax.swing.JTextField" name="yfokutusu">
+    </Component>
+    <Component class="javax.swing.JTextField" name="yskutusu">
+    </Component>
+    <Component class="javax.swing.JTextField" name="gmkutusu">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="hesaplatusu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hesapla"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hesaplatusuActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="c&#x131;k&#x131;stusu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc7;&#x131;k&#x131;&#x15f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c&#x131;k&#x131;stusuActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="temizletusu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Temizle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="temizletusuActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
